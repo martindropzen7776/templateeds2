@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>King Gold</title>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilo.css">
+</head>
+  
+  <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '773885186935200');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=773885186935200&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+<body>
+  <h1 class="logo-text">
+  <span class="logo-emoji">🎰</span>
+  <span class="logo-text-fill">King Gold</span>
+</h1>
+
+  <div class="card">
+  <div class="main-text">
+    <p class="typing">🔥TOCA EL BOTON Y CREA TU USUARIO🔥</p>
+    <p><span class="dorado-neon">RETIROS ILIMITADOS</span></p>
+  </div>
+
+  <button class="popup-button" id="whatsappButton">
+    <span>¡CREA TU USUARIO!</span>
+    <img src="WhatsApp.svg-2.webp" alt="Whatsapp">
+  </button>
+</div>
+
+<div class="barra-juegos-slider">
+  <div class="scroll-content">
+    <!-- primer set -->
+    <img src="game.pragmaticPlayGatesOfOlympus.thumbnail.512x512_v4.png" alt="Slots">
+    <img src="game.pragmaticPlayGoldParty.thumbnail.512x512_v3.png" alt="Ruleta">
+    <img src="game.pragmaticPlayJokersJewels.thumbnail.512x512_v3.png" alt="Cartas">
+    <img src="game.pragmaticPlaySweetBonanza.thumbnail.512x512_v4.png" alt="Deportes">
+    <img src="game.pragmaticPlayCongoCash.thumbnail.512x512_v3.png" alt="Jackpot">
+
+    <!-- segundo set (duplicado para loop infinito) -->
+    <img src="game.mg9MasksOfFire.thumbnail.512x512_v3.png" alt="Slots">
+    <img src="game.pragmaticPlayGatesOfOlympus.thumbnail.512x512_v4.png" alt="Ruleta">
+    <img src="game.pragmaticPlayJokersJewels.thumbnail.512x512_v3.png" alt="Cartas">
+    <img src="game.pragmaticPlaySweetBonanza.thumbnail.512x512_v4.png" alt="Deportes">
+    <img src="game.pragmaticPlayCongoCash.thumbnail.512x512_v3.png" alt="Jackpot">
+  </div>
+</div>
+  
+  <div class="info-externa">
+    <p>Mínimo de carga: $1000</p>
+    <p>RULETA EN VIVO - SLOTS - APUESTAS</p>
+  </div>
+
+  <div class="metodos-pago">
+  <h2 class="titulo-pago">MÉTODOS DE PAGO</h2>
+  <div class="iconos-pago">
+    <img src="8043680.png" alt="Mastercard">
+    <img src="Mercado Pago.png" alt="MercadoPago">
+    <img src="logo-large.png" alt="Rapipago">
+    <img src="logo-cuenta-dni.png" alt="Pago Fácil">
+  </div>
+</div>
+
+<script>
+  document.getElementById("whatsappButton").addEventListener("click", function () {
+    const links = [
+      
+
+'https://wa.me/5491130346686?text=Hola%2C%20quiero%20mi%20usuario',
+'https://wa.me/5491130356543?text=Hola%2C%20quiero%20mi%20usuario'
+      
+    ];
+
+    const randomLink = links[Math.floor(Math.random() * links.length)];
+
+    window.open(
+      `${randomLink}?text=${encodeURIComponent("Buenas! Me gustaría crear un usuario.")}`,
+      "_blank"
+    );
+  });
+</script>
+</body>
+</html>
